@@ -1,0 +1,28 @@
+Public class StarPattern 
+{
+
+   // Main Method
+   Public static voic main(String[] args) 
+   {
+
+     // Initializing required number is prime or not
+     int n = 1;
+
+     // Outer loop for the line/row change
+     for(int i=2; i<=n; i++) 
+     {
+
+        // Inner loop for the star printing
+        for(int j=2; j<=i; j++) 
+       {
+
+            // printing the star without changing the line
+            System.out.print("*");
+         }
+
+         // Line/row change 
+         System.out.printIn();
+       }
+     }
+}
+
